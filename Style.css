@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&family=Sriracha&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: #000000;
+    padding: 50px;
+    max-width: 1000px;
+    min-width: 98px;
+    margin: auto;
+}
+main{
+    max-width: 1000px;
+    margin:  auto;
+    min-height: 100vh;
+    background-color: rgb(253, 249, 243);
+    padding: 50px 0px;
+}
+header > h1{
+    color: #fafafa;
+    font-family: 'Passion One';
+    font-variant: small-caps;
+    font-weight: 400;
+    font-size: 3em;
+    text-align: center;
+    margin: auto;
+}
+header > p{
+    color: #FAFAFA;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 5px;
+
+}
+header a, footer a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+  
+}
+header > p > a:hover, footer > a:hover{
+    text-decoration: underline;
+}
+
+article{
+    margin-bottom: 100px;
+  
+ 
+   
+}
+article > p{
+    font-family: 'Sriracha';
+    font-size: 1.3em;
+    line-height: 2em;
+    padding-left: 40px;
+    
+}
+
+.Imagem{
+    color: white;
+    padding: 25px;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.37);
+    
+    
+  
+
+}
+.Imagem > p{
+    background-color: #00000083;
+    width: 400px;
+    padding: 50px 10px 50px 20px;
+    backdrop-filter: blur(5px);
+    
+}
+#imagem1{
+    background: #132309 url("imagens/background001.jpg") center center no-repeat fixed;
+    
+
+}
+#imagem2 {
+    background: #132309 url("imagens/background002.jpg") center center no-repeat fixed;
+   
+}
+#Poema2 > p{
+    color: #FAFAFA;
+    
+
+}
+
+
+.Poema5{
+    background: #132309 url("imagens/background002.jpg") center center no-repeat fixed;
+    padding: 50px 0px;
+    background-size: cover; 
+}
+
+footer{
+    color: white;
+    background-color: #000000;
+    text-align: center;
+    padding: 5px;
+    max-width: 1000px;
+    margin: auto;
+}
